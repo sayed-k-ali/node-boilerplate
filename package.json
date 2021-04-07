@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:with-monitor": "NODE_ENV=development nodemon index.js",
+    "dev": "NODE_ENV=development node index.js"
   },
   "keywords": [],
   "author": "",
